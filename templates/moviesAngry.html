@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Movies</title>
+    <!-- <link rel="stylesheet" href="happy.css"> -->
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+        margin: 5px;
+        border: 6px double white;
+    }   
+
+    .img{
+        width: 500px;
+        height: 500px;
+        border: 4px solid black;
+        margin: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(22, 22, 21, 0.5),rgba(10, 10, 10, 0.849)),url(static/img12.png);
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        justify-content: center;
+        text-align: center;
+    }
+    .box{
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+        transition: 1s;
+    }
+    .box img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    </style>
+</head>
+
+<body>
+    
+        <div class="header">
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt0298203/"><img src="../static/angrymovies1/angimg1.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0211933/"><img src="../static/angrymovies1/angimg2.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0112792/"><img src="../static/angrymovies1/angimg3.jpg"></a>
+                <a href="https://www.imdb.com/title/tt1375666/"><img src="../static/angrymovies1/angimg4.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0328107/"><img src="../static/angrymovies1/angimg5.jpg"></a>
+                <a href="https://www.imdb.com/title/tt1130884/"><img src="../static/angrymovies1/angimg6.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0120338/"><img src="../static/angrymovies1/angimg7.jpg"></a>
+                <a href="https://www.imdb.com/title/tt1078588/"><img src="../static/angrymovies1/angimg8.jpg"></a>
+                <a href="https://www.imdb.com/title/tt1067583/"><img src="../static/angrymovies1/angimg9.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0449487/"><img src="../static/angrymovies1/angimg10.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0454921/"><img src="../static/angrymovies1/angimg11.jpg"></a>
+                <a href="https://www.imdb.com/title/tt0172495/"><img src="../static/angrymovies1/angimg12.jpg"></a>
+             
+                
+                
+            </div>
+        </div>
+    
+</body>
+</html>
